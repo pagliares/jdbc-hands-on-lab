@@ -24,6 +24,11 @@ In this hands-on, the  user florentino is created with aid of **PHP MyAdmin** th
 ### The database bookstore_jdbc used in this course:
 
 In this hands-on, the database bookstore_jdbc is created with aid of **PHP MyAdmin** that comes bundled with **MAMP**.
+
+An SQL script is used to create and populate the tables in the MySQL database (See SQL_Script folder in this repository).
+
+SQL_Script/bookstore.sql
+Use PHP MyAdmin, MySQL monitor (from terminal/console) or any other SQL front-end to import/execute the scripts contents.
    
 ### MySQL Connector/J
 
@@ -38,4 +43,8 @@ To configure the **JDBC Driver for MySQL (Connector/J)** on **Apache Maven**, in
 To configure the **JDBC Driver for MySQL (Connector/J)** on **Gradle**, include the following line on the dependencies section of the build.gradle (Source: https://mvnrepository.com/artifact/mysql/mysql-connector-java):
 
 <code>implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.30'</code>
+
+### Solution to this hands-on lab
+
+The directory Source_Code of this repository has a Maven project with the solution for this hands-on lab that the student can use to compare with his/her solution.
 
