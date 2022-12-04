@@ -4,6 +4,13 @@ Repository with source code to be used in the exercise about JDBC. The repositor
 
 This hands-on lab is used as part of the JDBC hands-on course taught by Rodrigo Martins Pagliares at UNIFAL-MG (Computer Science undergraduate course).
 
+## UML Class Diagram and Entity Relationship Diagram for a bookstore
+
+<p align="center"><img src="https://github.com/pagliares/jdbc-hands-on-lab/blob/main/Images/Class_Diagram.png"></p>
+
+<p align="center"><img src="https://github.com/pagliares/jdbc-hands-on-lab/blob/main/Images/DER.png"></p>
+
+
 ## MySQL
 
 Before running the examples in this repository, make sure that:
